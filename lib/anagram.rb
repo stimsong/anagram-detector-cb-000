@@ -26,3 +26,19 @@ end
 ### split given word variable into individual letters and sort
 ### split each word from given array into individual letters, sort, and
 ### compare against sorted given word
+
+##### FLATIRON SOLUTION: #####
+#
+# class Anagram
+#
+#   attr_accessor :name
+#
+#   def initialize(word)
+#     @name = word
+#   end
+#
+#   def match(array)
+#     array.select {|x| x.split("").sort == @name.split("").sort}
+#   end
+#
+# end 
